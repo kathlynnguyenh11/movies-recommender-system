@@ -31,7 +31,7 @@ def generate_recomendations(df,movie_id,top_results):
 def __main__():
     movie_id = 13
     column_name = ['user_id', 'movie_id', 'rating', 'unix_timestamp']
-    ratings_base = pd.read_csv('ub.base', sep='\t', names=column_name, encoding='latin-1')
+    ratings_base = pd.read_csv('./asset/data/ub.base', sep='\t', names=column_name, encoding='latin-1')
     generate_recomendations(ratings_base,movie_id,5)
 
 __main__()
