@@ -1,0 +1,28 @@
+appnope==0.1.0
+backcall==0.2.0
+certifi==2020.6.20
+decorator==4.4.2
+ipython==7.16.1
+ipython-genutils==0.2.0
+jedi==0.17.1
+joblib==0.15.1
+mkl-fft==1.1.0
+mkl-random==1.1.1
+mkl-service==2.3.0
+numpy==1.18.5
+pandas @ file:///opt/concourse/worker/volumes/live/5ef6147e-ea92-446e-4065-0c8c7435293f/volume/pandas_1592841676717/work
+parso==0.7.0
+pexpect==4.8.0
+pickleshare==0.7.5
+prompt-toolkit==3.0.5
+ptyprocess==0.6.0
+Pygments==2.6.1
+python-dateutil==2.8.1
+pytz==2020.1
+scikit-learn @ file:///opt/concourse/worker/volumes/live/47a3ec7c-70dc-43c0-7317-def24a8afaf5/volume/scikit-learn_1592503037057/work
+scipy @ file:///opt/concourse/worker/volumes/live/7f5e51f8-abf3-4409-4c56-a4fb14cc9869/volume/scipy_1593104185999/work
+six==1.15.0
+threadpoolctl @ file:///tmp/tmp9twdgx9k/threadpoolctl-2.1.0-py3-none-any.whl
+traitlets==4.3.3
+wcwidth==0.2.5
+xlrd==1.2.0
