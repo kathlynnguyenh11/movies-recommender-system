@@ -1,6 +1,6 @@
 # Build a Collaborative Filtering Recommender System to suggest movie to each use
 
-## 
+## Procedure
 * step 1: read file .base => use pandas
   code example colum_name = ['user_id', 'movie_id', 'rating', 'unix_timestamp']
                ratings_base = pd.read_csv('ub.base', sep='\t', names=colum_name, encoding='latin-1')
